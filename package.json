@@ -1,0 +1,24 @@
+{
+  "name": "@evojam/redux-utils",
+  "version": "1.0.0",
+  "main": "./src",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "https://github.com/evojam/redux-utils.git",
+  "homepage": "https://github.com/evojam/redux-utils.git#readme",
+  "bugs": {
+    "url": "https://github.com/evojam/redux-utils/issues"
+  },
+  "author": "Krzysztof Antecki <kantecki@evojam.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "typescript": ">=2.8"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.2",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.0",
+    "typescript": ">2.8 <3.0"
+  }
+}
