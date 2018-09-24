@@ -4,7 +4,8 @@
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "changelog": "auto-changelog -p --template changelog-template.hbs"
   },
   "repository": "https://github.com/evojam/redux-utils.git",
   "homepage": "https://github.com/evojam/redux-utils.git#readme",
@@ -18,6 +19,7 @@
   },
   "devDependencies": {
     "@types/jest": "^23.3.2",
+    "auto-changelog": "^1.8.0",
     "jest": "^23.6.0",
     "ts-jest": "^23.10.0",
     "typescript": ">2.8 <3.0"
