@@ -9,4 +9,4 @@ env:
   global:
     - CI=true
 script:
-  - yarn run jest
+  - yarn ci-verify

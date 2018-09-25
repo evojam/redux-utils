@@ -5,7 +5,8 @@
   "types": "./lib/index.d.ts",
   "scripts": {
     "test": "jest",
-    "changelog": "auto-changelog -p --template changelog-template.hbs"
+    "changelog": "auto-changelog -p --template changelog-template.hbs",
+    "ci-verify": "tsc && yarn test"
   },
   "repository": "https://github.com/evojam/redux-utils.git",
   "homepage": "https://github.com/evojam/redux-utils.git#readme",
