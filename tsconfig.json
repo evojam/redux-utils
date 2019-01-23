@@ -4,7 +4,6 @@
     "outDir": "./lib",
     "sourceMap": true,
     "declaration": true,
-    "module": "esnext",
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
